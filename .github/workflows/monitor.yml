@@ -66,16 +66,8 @@ jobs:
         run: |
           if [ -f config.yaml ]; then
             echo "Using committed config.yaml (CSX->TAO)"
-            # 注入 SERVERCHAN_KEY secret（config.yaml 里 send_key 留空）
-            python3 -c "
-import re
-p = 'config.yaml'
-c = open(p, encoding='utf-8').read()
-c = re.sub(r'(send_key:\s*)[\'\"]\s*[\'\"]', r'\1\"SERVERCHAN_KEY_PLACEHOLDER\"', c)
-open(p, 'w', encoding='utf-8').write(c)
-"
-            # 然后替换占位符为 secret 值
-            sed -i "s|SERVERCHAN_KEY_PLACEHOLDER|${{ secrets.SERVERCHAN_KEY }}|" config.yaml
+            # SERVERCHAN_KEY secret 自动注入为环境变量，notifier 会读取
+            # (config.yaml 的 send_key 留空即可，见 notifier.py build_notifier)
           else
             echo "config.yaml not found, building from workflow_dispatch"
             python scripts/build_config.py \
