@@ -56,13 +56,20 @@ class ServerChanNotifier:
 
 
 def build_notifier(cfg: dict, logger: logging.Logger):
-    """根据 notifier 配置块构造推送器；未配置则返回 None"""
+    """根据 notifier 配置块构造推送器；未配置则返回 None。
+
+    send_key 优先级: 环境变量 SERVERCHAN_KEY > config.yaml 的 send_key
+    （GitHub Actions secret 自动注入为环境变量，比 YAML 注入可靠）
+    """
+    import os
+    env_key = os.environ.get("SERVERCHAN_KEY", "").strip()
     if not cfg:
         return None
     sc = (cfg.get("serverchan") or {})
-    if sc.get("enabled") and sc.get("send_key"):
+    send_key = env_key or (sc.get("send_key") or "")
+    if sc.get("enabled") and send_key:
         return ServerChanNotifier(
-            send_key=sc["send_key"],
+            send_key=send_key,
             logger=logger,
             channel=sc.get("channel"),
         )
