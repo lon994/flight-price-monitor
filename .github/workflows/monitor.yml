@@ -62,19 +62,26 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install chromium --with-deps
 
-      - name: Build config from workflow_dispatch or defaults
+      - name: Use committed config.yaml (preferred) or build from workflow_dispatch
         run: |
-          python scripts/build_config.py \
-            --from-code "${{ github.event.inputs.from_code || 'LZO' }}" \
-            --from-name "${{ github.event.inputs.from_name || '泸州' }}" \
-            --to-code "${{ github.event.inputs.to_code || 'BJS' }}" \
-            --to-name "${{ github.event.inputs.to_name || '北京' }}" \
-            --dates "${{ github.event.inputs.depart_dates || '2026-09-30,2026-10-01,2026-10-02' }}" \
-            --return-dates "${{ github.event.inputs.return_dates || '2026-10-06' }}" \
-            --platforms "${{ github.event.inputs.platforms || 'fliggy,tuniu,qunar,tongcheng' }}" \
-            --threshold "${{ github.event.inputs.threshold || '0' }}" \
-            --serverchan-key "${{ secrets.SERVERCHAN_KEY }}" \
-            --output config.yaml
+          if [ -f config.yaml ]; then
+            echo "Using committed config.yaml (CSX->TAO)"
+            # 注入 SERVERCHAN_KEY secret（config.yaml 里 send_key 留空）
+            sed -i "s|send_key: \"\"|send_key: \"${{ secrets.SERVERCHAN_KEY }}\"|" config.yaml
+          else
+            echo "config.yaml not found, building from workflow_dispatch"
+            python scripts/build_config.py \
+              --from-code "${{ github.event.inputs.from_code || 'LZO' }}" \
+              --from-name "${{ github.event.inputs.from_name || '泸州' }}" \
+              --to-code "${{ github.event.inputs.to_code || 'BJS' }}" \
+              --to-name "${{ github.event.inputs.to_name || '北京' }}" \
+              --dates "${{ github.event.inputs.depart_dates || '2026-09-30,2026-10-01,2026-10-02' }}" \
+              --return-dates "${{ github.event.inputs.return_dates || '2026-10-06' }}" \
+              --platforms "${{ github.event.inputs.platforms || 'fliggy,tuniu,qunar,tongcheng' }}" \
+              --threshold "${{ github.event.inputs.threshold || '0' }}" \
+              --serverchan-key "${{ secrets.SERVERCHAN_KEY }}" \
+              --output config.yaml
+          fi
 
       - name: Run price monitor (one round)
         run: python main.py --once
