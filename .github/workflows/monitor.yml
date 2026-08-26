@@ -86,6 +86,8 @@ jobs:
       - name: Run price monitor (one round)
         run: python main.py --once
         timeout-minutes: 15
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
 
       - name: Export latest results to JSON
         run: |
