@@ -105,5 +105,11 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/data/
-          git diff --staged --quiet || git commit -m "chore: update price data $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore: update price data $(date -u '+%Y-%m-%d %H:%M UTC')"
+            # 拉取远程最新（避免远程有其他提交导致 push 失败）
+            git pull --rebase origin main || echo "pull failed, will retry push"
+            git push origin main
+          fi
