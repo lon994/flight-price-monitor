@@ -24,7 +24,7 @@
         "tongcheng"
       ],
       "threshold": 0,
-      "query_time": "2026-09-01 21:34:46"
+      "query_time": "2026-09-02 05:19:39"
     },
     "results": [
       {
@@ -37,43 +37,43 @@
         "flight_no": "BK3057",
         "depart_time": "2026-09-30 07:00",
         "arrive_time": "2026-09-30 09:20",
-        "fetched_at": "2026-09-01 21:30:07"
+        "fetched_at": "2026-09-02 05:15:24"
       },
       {
         "platform": "fliggy",
         "from": "CSX",
         "to": "TAO",
         "date": "2026-10-01",
-        "price": 750.0,
-        "airline": "西藏航",
-        "flight_no": "TV3272",
-        "depart_time": "2026-10-01 21:25",
-        "arrive_time": "2026-10-01 23:40",
-        "fetched_at": "2026-09-01 21:30:24"
+        "price": 707.0,
+        "airline": "青岛航",
+        "flight_no": "QW9776",
+        "depart_time": "2026-10-01 22:05",
+        "arrive_time": "2026-10-02 00:30",
+        "fetched_at": "2026-09-02 05:15:34"
       },
       {
         "platform": "fliggy",
         "from": "CSX",
         "to": "TAO",
         "date": "2026-10-02",
-        "price": 690.0,
-        "airline": "西藏航",
-        "flight_no": "TV3272",
+        "price": 662.0,
+        "airline": "山航",
+        "flight_no": "SC4876",
         "depart_time": "2026-10-02 21:25",
         "arrive_time": "2026-10-02 23:40",
-        "fetched_at": "2026-09-01 21:30:39"
+        "fetched_at": "2026-09-02 05:15:45"
       },
       {
         "platform": "qunar",
         "from": "CSX",
         "to": "TAO",
         "date": "2026-10-01",
-        "price": 750.0,
+        "price": 707.0,
         "airline": "",
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-01 21:31:33"
+        "fetched_at": "2026-09-02 05:16:39"
       },
       {
         "platform": "qunar",
@@ -85,7 +85,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-01 21:31:54"
+        "fetched_at": "2026-09-02 05:16:53"
       },
       {
         "platform": "tongcheng",
@@ -97,7 +97,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-01 21:32:17"
+        "fetched_at": "2026-09-02 05:17:18"
       },
       {
         "platform": "tongcheng",
@@ -109,7 +109,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-01 21:32:40"
+        "fetched_at": "2026-09-02 05:17:37"
       },
       {
         "platform": "tongcheng",
@@ -121,19 +121,19 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-01 21:33:07"
+        "fetched_at": "2026-09-02 05:18:01"
       },
       {
         "platform": "fliggy",
         "from": "TAO",
         "to": "CSX",
         "date": "2026-10-05",
-        "price": 790.0,
-        "airline": "厦航",
-        "flight_no": "MF8309",
-        "depart_time": "2026-10-05 10:20",
-        "arrive_time": "2026-10-05 13:00",
-        "fetched_at": "2026-09-01 21:33:18"
+        "price": 670.0,
+        "airline": "山航",
+        "flight_no": "SC4601",
+        "depart_time": "2026-10-05 08:45",
+        "arrive_time": "2026-10-05 18:00",
+        "fetched_at": "2026-09-02 05:18:19"
       },
       {
         "platform": "fliggy",
@@ -145,7 +145,7 @@
         "flight_no": "KY8244",
         "depart_time": "2026-10-06 15:15",
         "arrive_time": "2026-10-06 20:55",
-        "fetched_at": "2026-09-01 21:33:32"
+        "fetched_at": "2026-09-02 05:18:29"
       },
       {
         "platform": "qunar",
@@ -157,19 +157,19 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-01 21:33:42"
+        "fetched_at": "2026-09-02 05:18:39"
       },
       {
         "platform": "qunar",
         "from": "TAO",
         "to": "CSX",
         "date": "2026-10-06",
-        "price": 1117.0,
+        "price": 1149.0,
         "airline": "",
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-01 21:33:59"
+        "fetched_at": "2026-09-02 05:18:53"
       },
       {
         "platform": "tongcheng",
@@ -181,7 +181,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-01 21:34:21"
+        "fetched_at": "2026-09-02 05:19:21"
       },
       {
         "platform": "tongcheng",
@@ -193,7 +193,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-01 21:34:46"
+        "fetched_at": "2026-09-02 05:19:39"
       }
     ],
     "summary": [
@@ -216,28 +216,28 @@
         "to": "TAO",
         "date": "2026-10-01",
         "per_platform": {
-          "fliggy": 750.0,
-          "qunar": 750.0,
+          "fliggy": 707.0,
+          "qunar": 707.0,
           "tongcheng": 750.0
         },
-        "min_price": 750.0,
+        "min_price": 707.0,
         "best_platform": "fliggy",
-        "best_flight": "西藏航TV3272",
-        "best_depart_time": "2026-10-01 21:25",
-        "best_arrive_time": "2026-10-01 23:40"
+        "best_flight": "青岛航QW9776",
+        "best_depart_time": "2026-10-01 22:05",
+        "best_arrive_time": "2026-10-02 00:30"
       },
       {
         "from": "CSX",
         "to": "TAO",
         "date": "2026-10-02",
         "per_platform": {
-          "fliggy": 690.0,
+          "fliggy": 662.0,
           "qunar": 690.0,
           "tongcheng": 690.0
         },
-        "min_price": 690.0,
+        "min_price": 662.0,
         "best_platform": "fliggy",
-        "best_flight": "西藏航TV3272",
+        "best_flight": "山航SC4876",
         "best_depart_time": "2026-10-02 21:25",
         "best_arrive_time": "2026-10-02 23:40"
       },
@@ -246,15 +246,15 @@
         "to": "CSX",
         "date": "2026-10-05",
         "per_platform": {
-          "fliggy": 790.0,
+          "fliggy": 670.0,
           "qunar": 790.0,
           "tongcheng": 790.0
         },
-        "min_price": 790.0,
+        "min_price": 670.0,
         "best_platform": "fliggy",
-        "best_flight": "厦航MF8309",
-        "best_depart_time": "2026-10-05 10:20",
-        "best_arrive_time": "2026-10-05 13:00"
+        "best_flight": "山航SC4601",
+        "best_depart_time": "2026-10-05 08:45",
+        "best_arrive_time": "2026-10-05 18:00"
       },
       {
         "from": "TAO",
@@ -262,7 +262,7 @@
         "date": "2026-10-06",
         "per_platform": {
           "fliggy": 690.0,
-          "qunar": 1117.0,
+          "qunar": 1149.0,
           "tongcheng": 1120.0
         },
         "min_price": 690.0,
@@ -276,13 +276,13 @@
       "2026-09-30": {
         "fliggy": [
           {
-            "t": "2026-09-01 21:30:07",
+            "t": "2026-09-02 05:15:24",
             "v": 700.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-01 21:32:17",
+            "t": "2026-09-02 05:17:18",
             "v": 700.0
           }
         ]
@@ -290,19 +290,19 @@
       "2026-10-01": {
         "fliggy": [
           {
-            "t": "2026-09-01 21:30:24",
-            "v": 750.0
+            "t": "2026-09-02 05:15:34",
+            "v": 707.0
           }
         ],
         "qunar": [
           {
-            "t": "2026-09-01 21:31:33",
-            "v": 750.0
+            "t": "2026-09-02 05:16:39",
+            "v": 707.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-01 21:32:40",
+            "t": "2026-09-02 05:17:37",
             "v": 750.0
           }
         ]
@@ -310,19 +310,19 @@
       "2026-10-02": {
         "fliggy": [
           {
-            "t": "2026-09-01 21:30:39",
-            "v": 690.0
+            "t": "2026-09-02 05:15:45",
+            "v": 662.0
           }
         ],
         "qunar": [
           {
-            "t": "2026-09-01 21:31:54",
+            "t": "2026-09-02 05:16:53",
             "v": 690.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-01 21:33:07",
+            "t": "2026-09-02 05:18:01",
             "v": 690.0
           }
         ]
@@ -330,19 +330,19 @@
       "2026-10-05": {
         "fliggy": [
           {
-            "t": "2026-09-01 21:33:18",
-            "v": 790.0
+            "t": "2026-09-02 05:18:19",
+            "v": 670.0
           }
         ],
         "qunar": [
           {
-            "t": "2026-09-01 21:33:42",
+            "t": "2026-09-02 05:18:39",
             "v": 790.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-01 21:34:21",
+            "t": "2026-09-02 05:19:21",
             "v": 790.0
           }
         ]
@@ -350,24 +350,24 @@
       "2026-10-06": {
         "fliggy": [
           {
-            "t": "2026-09-01 21:33:32",
+            "t": "2026-09-02 05:18:29",
             "v": 690.0
           }
         ],
         "qunar": [
           {
-            "t": "2026-09-01 21:33:59",
-            "v": 1117.0
+            "t": "2026-09-02 05:18:53",
+            "v": 1149.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-01 21:34:46",
+            "t": "2026-09-02 05:19:39",
             "v": 1120.0
           }
         ]
       }
     },
-    "generated_at": "2026-09-01T21:35:03.433203Z"
+    "generated_at": "2026-09-02T05:19:49.641387Z"
   }
 }
