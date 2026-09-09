@@ -3,29 +3,27 @@
   "data": {
     "query": {
       "from": {
-        "code": "CSX",
-        "name": "CSX"
+        "code": "TAO",
+        "name": "TAO"
       },
       "to": {
-        "code": "CSX",
-        "name": "CSX"
+        "code": "TAO",
+        "name": "TAO"
       },
       "depart_dates": [
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02"
+        "2026-10-05",
+        "2026-10-06"
       ],
       "return_dates": [
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02"
+        "2026-10-05",
+        "2026-10-06"
       ],
       "platforms": [
         "qunar",
         "tongcheng"
       ],
       "threshold": 0,
-      "query_time": "2026-09-08 21:39:14"
+      "query_time": "2026-09-09 05:40:12"
     },
     "results": [
       {
@@ -33,12 +31,12 @@
         "from": "CSX",
         "to": "TAO",
         "date": "2026-10-01",
-        "price": 787.0,
+        "price": 780.0,
         "airline": "",
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-08 21:34:22"
+        "fetched_at": "2026-09-09 05:35:28"
       },
       {
         "platform": "qunar",
@@ -50,7 +48,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-08 21:34:39"
+        "fetched_at": "2026-09-09 05:35:41"
       },
       {
         "platform": "tongcheng",
@@ -62,7 +60,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-08 21:35:02"
+        "fetched_at": "2026-09-09 05:36:08"
       },
       {
         "platform": "tongcheng",
@@ -74,7 +72,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-08 21:35:21"
+        "fetched_at": "2026-09-09 05:36:32"
       },
       {
         "platform": "tongcheng",
@@ -86,7 +84,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-08 21:35:49"
+        "fetched_at": "2026-09-09 05:36:54"
       },
       {
         "platform": "qunar",
@@ -98,7 +96,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-08 21:38:09"
+        "fetched_at": "2026-09-09 05:39:08"
       },
       {
         "platform": "qunar",
@@ -110,7 +108,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-08 21:38:22"
+        "fetched_at": "2026-09-09 05:39:23"
       },
       {
         "platform": "tongcheng",
@@ -122,7 +120,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-08 21:38:51"
+        "fetched_at": "2026-09-09 05:39:44"
       },
       {
         "platform": "tongcheng",
@@ -134,7 +132,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-08 21:39:14"
+        "fetched_at": "2026-09-09 05:40:12"
       }
     ],
     "summary": [
@@ -156,10 +154,10 @@
         "to": "TAO",
         "date": "2026-10-01",
         "per_platform": {
-          "qunar": 787.0,
+          "qunar": 780.0,
           "tongcheng": 790.0
         },
-        "min_price": 787.0,
+        "min_price": 780.0,
         "best_platform": "qunar",
         "best_flight": "",
         "best_depart_time": "",
@@ -212,13 +210,13 @@
       "2026-10-01": {
         "qunar": [
           {
-            "t": "2026-09-08 21:34:22",
-            "v": 787.0
+            "t": "2026-09-09 05:35:28",
+            "v": 780.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-08 21:35:21",
+            "t": "2026-09-09 05:36:32",
             "v": 790.0
           }
         ]
@@ -226,13 +224,13 @@
       "2026-10-02": {
         "qunar": [
           {
-            "t": "2026-09-08 21:34:39",
+            "t": "2026-09-09 05:35:41",
             "v": 684.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-08 21:35:49",
+            "t": "2026-09-09 05:36:54",
             "v": 690.0
           }
         ]
@@ -240,7 +238,7 @@
       "2026-09-30": {
         "tongcheng": [
           {
-            "t": "2026-09-08 21:35:02",
+            "t": "2026-09-09 05:36:08",
             "v": 680.0
           }
         ]
@@ -248,13 +246,13 @@
       "2026-10-05": {
         "qunar": [
           {
-            "t": "2026-09-08 21:38:09",
+            "t": "2026-09-09 05:39:08",
             "v": 730.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-08 21:38:51",
+            "t": "2026-09-09 05:39:44",
             "v": 730.0
           }
         ]
@@ -262,18 +260,18 @@
       "2026-10-06": {
         "qunar": [
           {
-            "t": "2026-09-08 21:38:22",
+            "t": "2026-09-09 05:39:23",
             "v": 990.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-08 21:39:14",
+            "t": "2026-09-09 05:40:12",
             "v": 990.0
           }
         ]
       }
     },
-    "generated_at": "2026-09-08T21:39:24.939998Z"
+    "generated_at": "2026-09-09T05:40:19.652167Z"
   }
 }
