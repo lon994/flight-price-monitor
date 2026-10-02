@@ -3,66 +3,25 @@
   "data": {
     "query": {
       "from": {
-        "code": "CSX",
-        "name": "CSX"
+        "code": "TAO",
+        "name": "TAO"
       },
       "to": {
         "code": "CSX",
         "name": "CSX"
       },
       "depart_dates": [
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02"
+        "2026-10-05",
+        "2026-10-06"
       ],
-      "return_dates": [
-        "2026-09-30",
-        "2026-10-01",
-        "2026-10-02"
-      ],
+      "return_dates": [],
       "platforms": [
         "tongcheng"
       ],
       "threshold": 0,
-      "query_time": "2026-10-02 06:36:28"
+      "query_time": "2026-10-02 13:31:02"
     },
     "results": [
-      {
-        "platform": "tongcheng",
-        "from": "CSX",
-        "to": "TAO",
-        "date": "2026-09-30",
-        "price": 660.0,
-        "airline": "",
-        "flight_no": "",
-        "depart_time": "",
-        "arrive_time": "",
-        "fetched_at": "2026-10-02 06:31:23"
-      },
-      {
-        "platform": "tongcheng",
-        "from": "CSX",
-        "to": "TAO",
-        "date": "2026-10-01",
-        "price": 660.0,
-        "airline": "",
-        "flight_no": "",
-        "depart_time": "",
-        "arrive_time": "",
-        "fetched_at": "2026-10-02 06:31:48"
-      },
-      {
-        "platform": "tongcheng",
-        "from": "CSX",
-        "to": "TAO",
-        "date": "2026-10-02",
-        "price": 660.0,
-        "airline": "",
-        "flight_no": "",
-        "depart_time": "",
-        "arrive_time": "",
-        "fetched_at": "2026-10-02 06:32:11"
-      },
       {
         "platform": "tongcheng",
         "from": "TAO",
@@ -73,7 +32,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-10-02 06:36:03"
+        "fetched_at": "2026-10-02 13:30:36"
       },
       {
         "platform": "tongcheng",
@@ -85,49 +44,10 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-10-02 06:36:28"
+        "fetched_at": "2026-10-02 13:31:02"
       }
     ],
     "summary": [
-      {
-        "from": "CSX",
-        "to": "TAO",
-        "date": "2026-09-30",
-        "per_platform": {
-          "tongcheng": 660.0
-        },
-        "min_price": 660.0,
-        "best_platform": "tongcheng",
-        "best_flight": "",
-        "best_depart_time": "",
-        "best_arrive_time": ""
-      },
-      {
-        "from": "CSX",
-        "to": "TAO",
-        "date": "2026-10-01",
-        "per_platform": {
-          "tongcheng": 660.0
-        },
-        "min_price": 660.0,
-        "best_platform": "tongcheng",
-        "best_flight": "",
-        "best_depart_time": "",
-        "best_arrive_time": ""
-      },
-      {
-        "from": "CSX",
-        "to": "TAO",
-        "date": "2026-10-02",
-        "per_platform": {
-          "tongcheng": 660.0
-        },
-        "min_price": 660.0,
-        "best_platform": "tongcheng",
-        "best_flight": "",
-        "best_depart_time": "",
-        "best_arrive_time": ""
-      },
       {
         "from": "TAO",
         "to": "CSX",
@@ -156,34 +76,10 @@
       }
     ],
     "trend": {
-      "2026-09-30": {
-        "tongcheng": [
-          {
-            "t": "2026-10-02 06:31:23",
-            "v": 660.0
-          }
-        ]
-      },
-      "2026-10-01": {
-        "tongcheng": [
-          {
-            "t": "2026-10-02 06:31:48",
-            "v": 660.0
-          }
-        ]
-      },
-      "2026-10-02": {
-        "tongcheng": [
-          {
-            "t": "2026-10-02 06:32:11",
-            "v": 660.0
-          }
-        ]
-      },
       "2026-10-05": {
         "tongcheng": [
           {
-            "t": "2026-10-02 06:36:03",
+            "t": "2026-10-02 13:30:36",
             "v": 680.0
           }
         ]
@@ -191,12 +87,12 @@
       "2026-10-06": {
         "tongcheng": [
           {
-            "t": "2026-10-02 06:36:28",
+            "t": "2026-10-02 13:31:02",
             "v": 920.0
           }
         ]
       }
     },
-    "generated_at": "2026-10-02T06:36:42.590978Z"
+    "generated_at": "2026-10-02T13:31:11.349314Z"
   }
 }
